@@ -1,5 +1,14 @@
 ;(function ($) {
     $(document).ready(function () {
+        // audio
+
+        function playSound() {
+            const audio = document.querySelector(`audio[data-key="${Math.floor(Math.random()*9)}"]`); // stop the fucntion from running all together
+            audio.currentTime = 0; // rewind to the start
+            audio.play();
+        }
+
+        // owrds
 
         function newWord() {
             var words = ['ba', 'be', 'bi', 'bodda', 'bop', 'bope', 'da', 'dib', 'dibby', 'dub', 'im', 'scatman', 'ski', 'the', 'yo'];
@@ -75,6 +84,8 @@
 
             var countHighlighted = $('span.h').length
             var properWord = word.replace(/\W/g, '')
+
+            playSound();
 
             if (countHighlighted == properWord.length) {
                 word = newWord();
