@@ -1,4 +1,41 @@
+<<<<<<< HEAD
 #game-field span {
     font-size: 2em;
 }
+=======
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+>>>>>>> 5cd30377b3b46d384dbad5f9ad5a1c3174ffdc46
 
+  main {
+    flex: 1 0 auto;
+  }
+
+.nav-wrapper {
+  padding-left: 2em;
+}
+
+.row small {
+  padding-left: 2em;
+  color: white;
+}
+
+.card-image  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6em;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome {
+  padding-left: 2em;
+}
