@@ -13,7 +13,7 @@
     </head>
     <body>
         <nav>
-            <div class="nav-wrapper yellow darken-2">
+            <div class="nav-wrapper grey darken-3">
                 <a href="#" class="brand-logo">Jazz Hands</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li>
@@ -29,37 +29,48 @@
             <div class="row">
                 <div class="welcome">
                     <h2>Welcome to Jazz Hands!</h2>
-                    <p>Type to the scat mustic and watch the hands go!</p>
+                    <p class="description">Type to the scat mustic and get that jazz hand!</p>
                 </div>
-                <div class="col s3">
-                    <div class="card horizontal">
-                        <div class="card-image">
-                            <i class="medium material-icons">perm_identity</i>
+                <div class="row  full-background">
+                    <div class="col s3">
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <i class="medium material-icons">perm_identity</i>
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5>Jeremy S.</h5>
+                                    <h6>Level 37</h6>
+                                    <h6>Crushing It!</h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-stacked">
-                            <div class="card-content">
-                                <h5>Jeremy S.</h5>
-                                <h6>Level 37</h6>
-                                <h6>Crushing It!</h6>
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <i class="medium material-icons">grade</i>
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5>Score</h5>
+                                    <p id="score"></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col s9">
-                    <div id="score"></div>
-                    <div id="game-field"></div>
-
+                    <div class="col s9">
+                        <div class="row jazz-hands"></div>
+                        <div class="row">
+                            <div id="game-field"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
-        <footer class="page-footer yellow darken-2">
+        <footer class="page-footer grey darken-3">
             <div class="row">
                 <small>&copy; 2017 | Our Team</small>
             </div>
         </footer>
-
-         <!--<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>-->
         <script src="app.js"></script>
     </body>
 </html>
