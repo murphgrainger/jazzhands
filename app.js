@@ -2,6 +2,8 @@
     $(document).ready(function () {
         // audio
 
+        $('#bg').volume = 0.01;
+
         function playSound() {
             const audio = document.querySelector(`audio[data-key="${Math.floor(Math.random()*9)}"]`); // stop the fucntion from running all together
             audio.currentTime = 0; // rewind to the start
