@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-#game-field span {
-    font-size: 2em;
-}
-=======
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
->>>>>>> 5cd30377b3b46d384dbad5f9ad5a1c3174ffdc46
-
   main {
     flex: 1 0 auto;
   }
@@ -38,4 +32,28 @@ body {
 
 .welcome {
   padding-left: 2em;
+}
+
+#score {
+  font-size: 2em;
+}
+
+.jazz-hands {
+  height: 20em;
+}
+
+#game-field {
+  display: flex;
+  justify-content: center;
+  font-size: 7em;
+}
+
+.description {
+  font-size: 1.5em;
+}
+
+.full-background {
+  display: flex;
+  align-items: center;
+  background-image:url(maxresdefault.jpg);;
 }
