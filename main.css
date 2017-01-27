@@ -3,6 +3,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Bree Serif', serif;
   }
   main {
     flex: 1 0 auto;
@@ -10,6 +11,8 @@ body {
 
 .nav-wrapper {
   padding-left: 2em;
+  height: 6em!important;
+  padding-top: 1em;
 }
 
 .row small {
@@ -56,4 +59,23 @@ body {
   display: flex;
   align-items: center;
   background-image:url(maxresdefault.jpg);;
+}
+
+#fingers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+#fingers img{
+  height: 20em;
+}
+
+.logo {
+height: 4em;
+}
+
+.row {
+  margin: 0
 }
